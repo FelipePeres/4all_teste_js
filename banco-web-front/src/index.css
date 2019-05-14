@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #fff !important;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: #424242 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #424242 !important;
+}
+
+ul.striped li {
+  padding: .5rem;
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+.profile-card .avatar {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: -70px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  border: 0;
+  font-weight: 400;
+}
+
+.avatar img.rounded-circle {
+  max-width: 150px !important;
+}
+
+.clear{
+
+  clear: both;
+}
+
+.card-align{
+
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.tab-content {
+  padding: 2rem 1rem 1rem;
+}
+
+.blockquote {
+  padding: 0.5rem 1rem;
+  border: none !important;
+}
+
+.centro{
+  text-align: center;
+}
+
+.modal-title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fechar{
+
+  position: absolute;
+  right: 15px;
+  top: 18px;
+
+}
+
+fieldset button{
+
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.icon-position{
+
+  position: absolute;
+    left: 0;
+}
+
+label.label-select {
+  position: relative !important;
+  float: left;
+  margin-bottom: 10px;
+}
+
+select#tem_cartao {
+  height: 32px;
+}
+
+button.btn.btn-primary.button-tc {
+  float: left;
+  display: block;
+}
+small#bandeiraCartao {
+  text-align: left;
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+}
+
+a.btn.btn-outline-info.waves-effect {
+  background-color: #FFF !important;
+}
+
+a.btn.btn-info {
+  color: #FFF !important;
+}
+
+button.btn.btn-danger.mr-3.btn.btn-secondary {
+  background-color: #dc3545 !important;
+}
+
+.card .card-block {
+  position: relative;
+}
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.nav-item button.btn.btn-dark {
+  position: absolute;
+  right: 39px;
+  top: 3px;
+}
+
+ul.striped li:last-child {
+  border-bottom: none;
+  margin-top: 27px;
+}
+
+a.navbar-brand {
+  font-weight: 600;
+}
+
+@media (max-width: 991px) 
+{
+  nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #00a9ff !important;  
+  }
+
+  .navbar-dark .navbar-brand {
+    color: #FFF !important;
+  }
+
+  .nav-item button.btn.btn-dark {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+  }
+
+}
